@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+
+    <title>ROYAL FOOK LONG AMSTERDAM-2</title>
+  </head>
+  <body style="margin: 0; padding: 0; width: 100%; height: 100%">
+    <div id="Body">
+      <!-- <div id="splash">
+      <img class="logo" src="https://i.ibb.co/G5jyXN9/logo.png" alt="" />
+    </div> -->
+      <div class="content">
+        <!-- header title and banner image -->
+        <header class="app-header">
+          <div class="container">
+            <ul>
+              <li>
+                <button type="button" class="sidebar-toggle">
+                  <i class="fa fa-bars"></i>
+                </button>
+              </li>
+              <li><span class="title">ROYAL FOOK LONG AMSTERDAM-2</span></li>
+            </ul>
+          </div>
+        </header>
+        <!-- description below the banner iamge -->
+        <div class="sub-header">
+          <ul>
+            <li>
+              <ul>
+                <li><img src="img/clock.svg" /></li>
+                <li>
+                  <span class="title">43 min</span>
+                  <p class="text">Time</p>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <ul>
+                <li><img src="img/bill.svg" /></li>
+                <li>
+                  <span class="title">4 / &infin;</span>
+                  <p class="text">Rounds</p>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <ul>
+                <li><img src="img/order.svg" /></li>
+                <li>
+                  <span class="title">0 / 20</span>
+                  <p class="text">Dishes</p>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+        <!-- sticky part on the page-- to always display -->
+        <div class="sticky">
+          <!-- search-bar -->
+          <div class="search-bar">
+            <div class="container">
+              <ul>
+                <li>
+                  <button type="button" class="search">
+                    <img src="img/search.svg" />
+                  </button>
+                </li>
+                <li>
+                  <input
+                    type="search"
+                    id="search-prod"
+                    class="search-prod"
+                    placeholder="What are you Craving for?"
+                  />
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- <section class="menu"> -->
+          <!-- main categories -->
+          <div class="main-categories">
+            <ul>
+              <li>
+                <button type="button" class="category-main" data-id="Dranken">
+                  <ul>
+                    <li><img src="img/drink.svg" /></li>
+                    <li><span class="title">Dranken</span></li>
+                  </ul>
+                </button>
+              </li>
+
+              <li>
+                <button type="button" class="category-main" data-id="Menu">
+                  <ul>
+                    <li><img src="img/r-menu.svg" /></li>
+                    <li><span class="title">Menu</span></li>
+                  </ul>
+                </button>
+              </li>
+
+              <li>
+                <button type="button" class="category-main" data-id="Dessert">
+                  <ul>
+                    <li><img src="img/dessert.svg" /></li>
+                    <li><span class="title">Dessert</span></li>
+                  </ul>
+                </button>
+              </li>
+            </ul>
+          </div>
+
+          <!-- sub-categories -->
+          <div class="sub-categories">
+            <div class="subcategory-list">
+              <ul class="subcategory">
+                <!-- dynamic data from app.js -->
+              </ul>
+            </div>
+
+            <div class="h-line"></div>
+          </div>
+
+          <!-- end of sticky div -->
+
+          <!-- categories-display -->
+          <div class="display-items">
+            <div class="subcategoryWithItems">
+              <div class="subcategory-title">Warme dranken</div>
+
+              <div class="grid">
+                <!-- single item -->
+                <div class="item">
+                  <ul>
+                    <li>
+                      <img class="image-main" src="img/coffee.webp" alt="" />
+                    </li>
+                    <li class="item-details">
+                      <span class="v-line"></span>
+                      <h4>koffie</h4>
+                      <ul>
+                        <li><p class="desc">&euro; 2.90</p></li>
+                        <li>
+                          <img class="img-mini" src="img/leaf.svg" alt="" />
+                        </li>
+                        <li>
+                          <img class="img-mini" src="img/leaf.svg" alt="" />
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <button type="button" class="addToCart">
+                        <img
+                          class="add-cart"
+                          src="img/addCartItem.svg"
+                          alt=""
+                        />
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+                <!-- end of single item -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- </section> -->
+      <div class="footer">
+        <footer class="app-footer">
+          <ul>
+            <li>
+              <img src="img/book.svg" />
+              Menu
+            </li>
+            <li>
+              <img src="img/bill.svg" />
+              Bill
+            </li>
+            <li>
+              <img src="img/order.svg" />
+              Order
+            </li>
+            <li>
+              <img src="img/service.svg" />
+              Service
+            </li>
+          </ul>
+        </footer>
+      </div>
+      <script src="app.js"></script>
+    </div>
+  </body>
+</html>
